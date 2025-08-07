@@ -1,14 +1,28 @@
 {
-  "name": "h2h-market",
+  "name": "react-flow-project",
   "version": "1.0.0",
-  "description": "Head-to-Head Market Simulation",
+  "description": "React Flow Documentation Website with Docusaurus",
+  "main": "index.js",
+  "scripts": {
+    "gendocs": "node generateDocs.js",
+    "build": "cd documentation && npm run build",
+    "start": "cd documentation && npm start",
+    "serve": "cd documentation && npm run serve",
+    "install-docs": "cd documentation && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VedantKejariwal/reactFlowProject.git"
+  },
+  "author": "Vedant Kejariwal",
+  "license": "MIT",
   "devDependencies": {
     "jsdoc-to-markdown": "^9.1.1"
   },
-  "scripts": {
-    "gendocs": "node generateDocs.js"
-  },
   "dependencies": {
     "@xyflow/react": "^12.8.2"
+  },
+  "engines": {
+    "node": ">=18.0"
   }
 }

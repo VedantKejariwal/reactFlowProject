@@ -1,0 +1,12 @@
+{
+  "buildCommand": "cd documentation && npm ci && npm run build",
+  "outputDirectory": "documentation/build",
+  "installCommand": "npm install",
+  "framework": null,
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+} 
