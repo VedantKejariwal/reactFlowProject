@@ -1,0 +1,14 @@
+{
+  "name": "h2h-market",
+  "version": "1.0.0",
+  "description": "Head-to-Head Market Simulation",
+  "devDependencies": {
+    "jsdoc-to-markdown": "^9.1.1"
+  },
+  "scripts": {
+    "gendocs": "node generateDocs.js"
+  },
+  "dependencies": {
+    "@xyflow/react": "^12.8.2"
+  }
+}

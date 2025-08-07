@@ -1,0 +1,16 @@
+{
+    "source": {
+      "include": ["head-to-head-market/server", "head-to-head-market/client"],
+      "includePattern": "js|jsx",
+      "excludePattern": "(node_modules|docs|tailwind.config.js)"
+    },
+    "opts": {
+      "destination": "./docs/jsdoc",
+      "recurse": true
+    },
+    "plugins": ["plugins/markdown"],
+    "templates": {
+      "cleverLinks": false,
+      "monospaceLinks": false
+    }
+  }
