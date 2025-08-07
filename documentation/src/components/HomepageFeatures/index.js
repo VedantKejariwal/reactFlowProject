@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Visualize the codebase',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        This website is built to visualize the truthmarket project's codebase.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Interactive flowcharts',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        The flowcharts are interactive and can be used to navigate the codebase.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Easy to understand',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        The flowcharts are easy to understand and can be used to navigate the codebase.
       </>
     ),
   },

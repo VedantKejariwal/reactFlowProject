@@ -1,47 +1,31 @@
 ---
 sidebar_position: 1
 ---
+import H2HFlowchart from '@theme/H2HFlowchart';
+import H2HArchitectureFlow from '@theme/H2HArchitectureFlow';
+import Link from '@docusaurus/Link';
 
-# Tutorial Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+# Introduction
 
-## Getting Started
+Welcome to the documentation for **MVA h2h marketplace**!
 
-Get started by **creating a new site**.
+This documentation website is built to visualize the truthmarket project's codebase.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+---
 
-### What you'll need
+## **H2H Market Architecture Flowchart**
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+Below is an interactive flowchart explaining the architecture of the H2H Market system:
 
-## Generate a new site
+<H2HArchitectureFlow />
 
-Generate a new Docusaurus site using the **classic template**.
+---
 
-The classic template will automatically be added to your project after you run the command:
+## **H2H Market Architecture Flowchart**
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+Below is an interactive flowchart explaining the architecture of the H2H Market system:
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+<H2HFlowchart />
 
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+---
